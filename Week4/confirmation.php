@@ -23,7 +23,7 @@ switch ($size) {
         break;
 }
 
-$total = $qty * $price;
+$total = $qty * $price; 
 
 echo "<h2>Your order:</h2>";
 echo "<p>Quantity: " . $qty . "</p>";
