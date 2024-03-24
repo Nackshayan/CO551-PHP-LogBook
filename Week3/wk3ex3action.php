@@ -6,8 +6,8 @@ switch ($_POST["radcourse"]) {
         echo "You have selected an HND course";
     case "BSC":
         echo "You have selected a BSC course";
-    case "Part Time BSC":
-        echo "You have selected a Part Time BSC course";
+    case "Part Time BSC":   
+        echo "You have selected a Part Time BSC course"; 
     default:
         echo "No course selected";
 }
